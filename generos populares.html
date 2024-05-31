@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Géneros Populares</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    .menu-container {
+      position: relative;
+      display: inline-block;
+    }
+
+    .menu-btn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      border-radius: 20px;
+    }
+
+    .menu-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .menu-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .menu-content a:hover {
+      background-color: #f1f1f1;
+    }
+
+    .menu-container:hover .menu-content {
+      display: block;
+    }
+
+    .genres {
+      background-color: #fff;
+      padding: 20px;
+      margin: 20px auto;
+      width: 80%;
+      max-width: 600px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+
+    .genres h2 {
+      margin: 0 0 20px 0;
+      text-align: center;
+    }
+
+    .genres ul {
+      padding: 0;
+      list-style: none;
+    }
+
+    .genres li {
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .genres li:last-child {
+      border-bottom: none;
+    }
+
+    .genres li a {
+      text-decoration: none;
+      color: #000;
+      display: block;
+      transition: color 0.3s;
+    }
+
+    .genres li a:hover {
+      color: #4CAF50;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="menu-container">
+      <button class="menu-btn">Menú</button>
+      <div class="menu-content">
+        <a href="file:///D:/Pagina%20Mayo/Explorar%20musica.html">Explorar música</a>
+      <a href="file:///D:/Pagina%20Mayo/top%2010.html">Top 10</a>
+      <a href="file:///D:/Pagina%20Mayo/Ultimos%20lanzamientos.html">Últimos lanzamientos</a>
+      <a href="file:///D:/Pagina%20Mayo/Datos%20sobre%20canciones.html">Datos de canciones </a>
+      <li><a href="file:///D:/Pagina%20Mayo/tienda%20artistas.html">Tienda de Artistas</a>
+      <li><a href="file:///D:/Pagina%20Mayo/Formulario.html">Formulario</a>
+    
+      </div>
+    </div>
+    <h1>Géneros Populares</h1>
+  </header>
+  <section class="genres">
+    <h2>Explora por Género</h2>
+    <ul>
+      <li><a href="https://open.spotify.com/playlist/37i9dQZF1DWYN0zdqzbEwl?si=CzWFm-n6TN6KGYhU1F9d1A&utm_source=whatsapp">Rock</a></li>
+      <li><a href="https://open.spotify.com/playlist/37i9dQZF1DWSpF87bP6JSF?si=Qx-NzZ_wRuGJYCL0gt41eQ&utm_source=whatsapp">Pop</a></li>
+      <li><a href="https://open.spotify.com/playlist/37i9dQZF1DXafCmi37MoU6?si=_2DlRXvGROCkVb3i0rZP5w&utm_source=whatsapp">Hip-Hop</a></li>
+      <li><a href="https://open.spotify.com/playlist/37i9dQZF1DWZjqjZMudx9T?si=uVzbPogJSBG1oXb9avTwpQ&utm_source=whatsapp">Reggaetón</a></li>
+      <li><a href="https://open.spotify.com/playlist/37i9dQZF1DX6J5NfMJS675?si=sniO-Nt0QreKE2KDdx--lw&utm_source=whatsapp">Electrónica</a></li>
+      <li><a href="https://open.spotify.com/playlist/37i9dQZF1DWVqfgj8NZEp1?si=RcK27dd1QZmS2TgkHP3ZSg&utm_source=whatsapp">Jazz</a></li>
+      <li><a href="https://open.spotify.com/playlist/37i9dQZF1DWWEJlAGA9gs0?si=UI9Z_CzgR8mv6RbGkmYIMQ&utm_source=whatsapp">Clásica</a></li>
+      <li><a href="https://open.spotify.com/playlist/37i9dQZF1DX10zKzsJ2jva?si=erA3hty3R2i-7bNLaFhlQg&utm_source=whatsapp">Latina</a></li>
+      <li><a href="https://open.spotify.com/playlist/37i9dQZF1DXbSbnqxMTGx9?si=r01nmYHmS7K_oLFSZW-e9Q&utm_source=whatsapp">Reggae</a></li>
+      <li><a href="https://open.spotify.com/playlist/37i9dQZF1DXd9rSDyQguIk?si=NGWwaSsTTquh46KtDtyfJA&utm_source=whatsapp">Blues</a></li>
+    </ul>
+  </section>
+</body>
+</html>

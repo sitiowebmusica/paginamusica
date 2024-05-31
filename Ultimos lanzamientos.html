@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Últimos Lanzamientos</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    .menu-container {
+      position: relative;
+      display: inline-block;
+    }
+
+    .menu-btn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      border-radius: 20px;
+    }
+
+    .menu-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .menu-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .menu-content a:hover {
+      background-color: #f1f1f1;
+    }
+
+    .menu-container:hover .menu-content {
+      display: block;
+    }
+
+    .releases {
+      background-color: #fff;
+      padding: 20px;
+      margin: 20px auto;
+      width: 80%;
+      max-width: 600px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+
+    .releases h2 {
+      margin: 0 0 20px 0;
+      text-align: center;
+    }
+
+    .releases ul {
+      padding: 0;
+      list-style: none;
+    }
+
+    .releases li {
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .releases li:last-child {
+      border-bottom: none;
+    }
+
+    .releases li a {
+      text-decoration: none;
+      color: #000;
+      display: block;
+      transition: color 0.3s;
+      margin-bottom: 5px;
+    }
+
+    .releases li a:hover {
+      color: #4CAF50;
+    }
+
+    .releases li span {
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="menu-container">
+      <button class="menu-btn">Menú</button>
+      <div class="menu-content">
+       <a href="file:///D:/Pagina%20Mayo/Explorar%20musica.html">Explorar música</a>
+        <a href="file:///D:/Pagina%20Mayo/top%2010.html">Top 10</a>
+        <a href="file:///D:/Pagina%20Mayo/generos%20populares.html">Géneros populares</a>
+        <a href="file:///D:/Pagina%20Mayo/Datos%20sobre%20canciones.html">Datos de canciones </a>
+        <a href="file:///D:/Pagina%20Mayo/tienda%20artistas.html">Tienda de Artistas</a>
+        <a href="file:///D:/Pagina%20Mayo/Formulario.html">Formulario</a>
+      
+    </div>
+    <h1>Últimos Lanzamientos</h1>
+  </header>
+  <section class="releases">
+    <h2>Recientes</h2>
+    <ul>
+      <li>
+        <a href="https://open.spotify.com/track/0LZy30mVmxqUpdQmaXKXBd?si=HVw0NB6CT-aa4tdWnwqJcg&utm_source=whatsapp">Adivino </a>
+        <span>Myke Towers, Bad Bunny</span>
+      </li>
+      <li>
+        <a href="https://open.spotify.com/track/6uJDbR4EMdgMUDcm5UX9Eh?si=FPzrbVnsR0eZri_6o3iIzg&utm_source=whatsapp">Perreo 101 </a>
+        <span>Wisin, Yandel</span>
+      </li>
+      <li>
+        <a href="https://open.spotify.com/track/0163eXbLwh5dFhKa73n9wG?si=OihxMRHLRg6j9g58gv_MGg&utm_source=whatsapp">300 Noches</a>
+        <span>Belinda, Natanael Cano</span>
+      </li>
+      <li>
+        <a href="https://open.spotify.com/track/4Pqi8W12YuzAWBvLdJI4ed?si=o-UvR8_wR-2hdUgrlvf33A&utm_source=whatsapp">Un Desperdicio</a>
+        <span>Rels B, Junior H </span>
+      </li>
+      <li>
+        <a href="https://open.spotify.com/track/4vhyHKLWq38Lznkmaqcxhp?si=ku3Wnx3rRyab7RGFtRjFtw&utm_source=whatsapp">La Noche </a>
+        <span>Rodriguez</span>
+      </li>
+      <li>
+        <a href="https://open.spotify.com/track/5ELjObPQmX3gG06NukBFzr?si=ydLEokGzTEWKQEEQWkLnmQ&utm_source=whatsapp">Akureyri </a>
+        <span>Aitana, Sebatian Yatra</span>
+      </li>
+      <li>
+        <a href="https://open.spotify.com/track/2RmtEc2ZNDCzAU3vH0AbKx?si=EvzYefnyRjyYCJ3R9uUdPg&utm_source=whatsapp">Ojos Verdes</a>
+        <span>Nicki Nicole</span>
+      </li>
+      <li>
+        <a href="https://open.spotify.com/track/7L0BH62HRIap3Fg6KUyQfR?si=Om_baHrlSx697cRXEDOeow&utm_source=whatsapp">Buenos aires </a>
+        <span>TINI</span>
+      </li>
+      <li>
+        <a href="https://open.spotify.com/track/14LaTeixKug7O2jNMK8u1C?si=0s_PRxOBSVmgeQe9ix_Adw&utm_source=whatsapp">Fecha</a>
+        <span>Feid, Yandel</span>
+      </li>
+      <li>
+        <a href="https://open.spotify.com/track/1nCXy1RQQYMgt97DO8uCSI?si=7Age0pPTThOIekCe4J-Yyw&utm_source=whatsapp">Peso Completo </a>
+        <span>Peso Pluma, Arcangel</span>
+      </li>
+    </ul>
+  </section>
+</body>
+</html>

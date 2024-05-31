@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tiendas de los Artistas</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    .menu-container {
+      position: relative;
+      display: inline-block;
+    }
+
+    .menu-btn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      border-radius: 20px;
+    }
+
+    .menu-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .menu-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .menu-content a:hover {
+      background-color: #f1f1f1;
+    }
+
+    .menu-container:hover .menu-content {
+      display: block;
+    }
+
+    .stores {
+      background-color: #fff;
+      padding: 20px;
+      margin: 20px auto;
+      width: 80%;
+      max-width: 600px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+
+    .stores h2 {
+      margin: 0 0 20px 0;
+      text-align: center;
+    }
+
+    .stores ul {
+      padding: 0;
+      list-style: none;
+    }
+
+    .stores li {
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .stores li:last-child {
+      border-bottom: none;
+    }
+
+    .stores li a {
+      text-decoration: none;
+      color: #000;
+      display: block;
+      transition: color 0.3s;
+      margin-bottom: 5px;
+    }
+
+    .stores li a:hover {
+      color: #4CAF50;
+    }
+
+    .stores li span {
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="menu-container">
+      <button class="menu-btn">Menú</button>
+      <div class="menu-content">
+        <a href="file:///D:/Pagina%20Mayo/Explorar%20musica.html">Explorar música</a>
+        <a href="file:///D:/Pagina%20Mayo/top%2010.html">Top 10</a>
+        <a href="file:///D:/Pagina%20Mayo/generos%20populares.html">Géneros populares</a>
+        <a href="file:///D:/Pagina%20Mayo/Ultimos%20lanzamientos.html">Últimos lanzamientos</a>
+        <a href="file:///D:/Pagina%20Mayo/Datos%20sobre%20canciones.html">Datos de canciones </a>
+        <a href="file:///D:/Pagina%20Mayo/Formulario.html">Formulario</a>
+      
+      </div>
+    </div>
+    <h1>Tiendas de los Artistas</h1>
+  </header>
+  <section class="stores">
+    <h2>Tiendas Oficiales de Artistas</h2>
+    <ul>
+      <li>
+        <a href="https://shop.justinbiebermusic.com/" target="_blank">Tienda de Justin Bieber</a>
+        <span>Justin Bieber</span>
+      </li>
+      <li>
+        <a href="https://store.taylorswift.com/" target="_blank">Tienda de Taylor Swift</a>
+        <span>Taylor Swift</span>
+      </li>
+      <li>
+        <a href="https://beyonce.com/store/" target="_blank">Tienda de Beyoncé</a>
+        <span>Beyoncé</span>
+      </li>
+      <li>
+        <a href="https://badbunnyofficialstore.com/shop/" target="_blank">Tienda de Bad Bunny</a>
+        <span>Bad Bunny</span>
+      </li>
+      <li>
+        <a href="https://shakira.store/" target="_blank">Tienda de Shakira</a>
+        <span>Shakira</span>
+      </li>
+      <li>
+        <a href="https://store.billieeilish.com/" target="_blank">Tienda de Billie Eilish</a>
+        <span>Billie Eilish</span>
+      </li>
+      <li>
+        <a href="https://shop.arianagrande.com/" target="_blank">Tienda de Ariana Grande</a>
+        <span>Ariana Grande</span>
+      </li>
+      <li>
+        <a href="https://shop.postmalone.com/" target="_blank">Tienda de Post Malone</a>
+        <span>Post Malone</span>
+      </li>
+      <li>
+        <a href="https://store.edsheeran.com/" target="_blank">Tienda de Ed Sheeran</a>
+        <span>Ed Sheeran</span>
+      </li>
+    </ul>
+  </section>
+</body>
+</html>

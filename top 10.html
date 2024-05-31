@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top 10 Canciones</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    .menu-container {
+      position: relative;
+      display: inline-block;
+    }
+
+    .menu-btn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      border-radius: 20px;
+    }
+
+    .menu-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .menu-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .menu-content a:hover {
+      background-color: #f1f1f1;
+    }
+
+    .menu-container:hover .menu-content {
+      display: block;
+    }
+
+    .top-10 {
+      background-color: #fff;
+      padding: 20px;
+      margin: 20px auto;
+      width: 80%;
+      max-width: 600px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+
+    .top-10 h2 {
+      margin: 0 0 20px 0;
+      text-align: center;
+    }
+
+    .top-10 ol {
+      padding: 0;
+      list-style: none;
+      counter-reset: song-counter;
+    }
+
+    .top-10 li {
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .top-10 li:last-child {
+      border-bottom: none;
+    }
+
+    .top-10 li::before {
+      counter-increment: song-counter;
+      content: counter(song-counter) ".";
+      font-weight: bold;
+      margin-right: 10px;
+    }
+
+    .top-10 li a {
+      text-decoration: none;
+      color: #000;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+    }
+
+    .top-10 li a:hover {
+      text-decoration: underline;
+    }
+
+    .top-10 li span {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="menu-container">
+      <button class="menu-btn">Menú</button>
+      <div class="menu-content">
+      <a href="file:///D:/Pagina%20Mayo/Explorar%20musica.html">Explorar música</a>
+      <a href="file:///D:/Pagina%20Mayo/generos%20populares.html">Géneros populares</a>
+      <a href="file:///D:/Pagina%20Mayo/Ultimos%20lanzamientos.html">Últimos lanzamientos</a>
+      <a href="file:///D:/Pagina%20Mayo/Datos%20sobre%20canciones.html">Datos de canciones </a>
+      <a href="file:///D:/Pagina%20Mayo/tienda%20artistas.html">Tienda de Artistas</a>
+      <a href="file:///D:/Pagina%20Mayo/Formulario.html">Formulario</a>
+      </div>
+    </div>
+    <h1>Top 10 Canciones</h1>
+  </header>
+  <section class="top-10">
+    <h2>Las más populares</h2>
+    <ol>
+      <li><a href="https://open.spotify.com/track/1IHWl5LamUGEuP4ozKQSXZ?si=xZS0M2UmSKmyDrCT7YjmBw&utm_source=whatsapp"><span>Bad Bunny</span> - Titi Me Preguntó</a></li>
+      <li><a href="https://open.spotify.com/track/4PR0r2us3a64lTew6TVlF2?si=Nb6QHsAfRb2zlPLgPxjgmQ&utm_source=whatsapp"><span>Fuerza Regida</span> - Sigo Chambeando</a></li>
+      <li><a href="https://open.spotify.com/track/6MOjqs7ngSnZz3J5GZLAfm?si=zQgjQXpIQx-msyfufV8HAw&utm_source=whatsapp"><span>Natanael Cano</span> - Arriba </a></li>
+      <li><a href="https://open.spotify.com/track/5bU6rOWXTwagpjUcGp7I8N?si=eZWopKtRTRuEEKOZwQ9WPA&utm_source=whatsapp"><span>Peso Pluma</span> - El Belicón</a></li>
+      <li><a href="https://open.spotify.com/track/2MnLkFqY9Rpg9s3Zv6ZJdK?si=i0IgoNUAQtO0DioxZCNJ9g&utm_source=whatsapp"><span>Gera MX</span> - Botella Tras Botella</a></li>
+      <li><a href="https://open.spotify.com/track/3f04ysVYLQoaKFHLHjezws?si=HMs5l_olTtWZu2viNR44iQ&utm_source=whatsapp"><span>C Kan</span> - Un Par De Balas</a></li>
+      <li><a href="https://open.spotify.com/track/0siuaTYrqZ0XebPmL0B8ZN?si=M3Ttird7RoyyKgS1CgQrkQ&utm_source=whatsapp"><span>Charles Ans</span> - Aquí Todo Está Bien</a></li>
+      <li><a href="https://open.spotify.com/track/6J9V3EgYR2Kw0XZUaLcoID?si=3WuW0IzhQYi4bpBbteL86w&utm_source=whatsapp"><span>Aleman</span> - Humo en la Trampa</a></li>
+      <li><a href="https://open.spotify.com/track/0tKl8ZVM6xJkhznvJAS3Nq?si=41yFqJQLQfGRFizFgfcypQ&utm_source=whatsapp"><span>Junior H</span> - Ella</a></li>
+      <li><a href="https://open.spotify.com/track/7Jph6HJbfURt4Fea19IED3?si=FvRhndWlQW6y__iGALCUCQ&utm_source=whatsapp"><span>Marca Registrada</span> - Si Fuera Fácil</a></li>
+    </ol>
+  </section>
+</body>
+</html>
